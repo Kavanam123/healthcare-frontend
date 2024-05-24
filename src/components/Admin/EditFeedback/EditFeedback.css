@@ -1,0 +1,29 @@
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #e1caca;
+  margin-top: 75px;
+}
+
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 20px;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card p {
+  margin: 10px 0;
+  color: #333;
+  font-size: 16px;
+}

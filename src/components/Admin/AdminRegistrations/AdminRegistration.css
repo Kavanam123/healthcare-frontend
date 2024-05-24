@@ -1,0 +1,59 @@
+.registrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+  }
+  .registrations {
+    display: flex;
+    flex-direction: column;
+    /* remove or comment out the line below */
+    /* align-items: center; */
+}
+
+.registration h1 {
+    font-size: 14px;
+    /* add the line below to align the heading to the start */
+    align-self: flex-start;
+}
+
+  .registration {
+    width: 80%;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+  }
+ 
+  .registration h1{
+    font-size: 14px;
+  }
+ 
+  .registration-details-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 6rem;
+  }
+ 
+  .registration-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .registration-card-header button {
+    background-color: #f44336; /* red color */
+    color: white;
+    font-size: 12px;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-card-header button:hover {
+    background-color: #d32f2f; /* darker red color on hover */
+  }
+  
+
